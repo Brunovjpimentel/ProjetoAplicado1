@@ -9,18 +9,21 @@ Ambiente de Desenvolvimento:
 
 Python: Linguagem utilizada para o desenvolvimento do sistema devido à sua simplicidade e vasta gama de bibliotecas.
 Visual Studio Code (VSCode): IDE escolhida para a escrita e depuração do código, oferecendo uma interface intuitiva e suporte a extensões úteis.
+
 Tecnologias e Bibliotecas:
 
 OpenCV: Biblioteca utilizada para captura e processamento de vídeos, essencial para o reconhecimento facial.
 Face Recognition: Baseada em dlib, esta biblioteca realiza a identificação facial com alta precisão.
 SQLite: Banco de dados escolhido por sua leveza e facilidade de uso, utilizado para armazenamento de dados.
 smtplib: Parte da biblioteca padrão do Python, utilizada para o envio de e-mails de confirmação de ponto.
+
 Estrutura do Projeto:
 
 main.py: Arquivo principal que integra os componentes do sistema.
 database.py: Gerencia a criação e interação com o banco de dados de colaboradores.
 reconhecimento_facial.py: Responsável pela captura de vídeo e execução do reconhecimento facial.
 envio_email.py: Concentra funções para envio de e-mails.
+face_recognition.py: Responsável pelo reconhecimento facial dos colaboradores registrados.
 Diretório imagens_referencia/: Armazena imagens de referência usadas no reconhecimento facial.
 
 
